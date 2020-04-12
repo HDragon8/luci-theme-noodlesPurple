@@ -1,6 +1,0 @@
-#!/bin/sh
-uci batch <<-EOF
-	set luci.themes.noodlesPurple=/luci-static/noodlePurple
-	commit luci
-EOF
-exit 0
